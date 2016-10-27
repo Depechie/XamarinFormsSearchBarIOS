@@ -1,0 +1,16 @@
+﻿<?xml version="1.0" encoding="utf-8" ?>
+<ContentPage xmlns="http://xamarin.com/schemas/2014/forms"
+             xmlns:x="http://schemas.microsoft.com/winfx/2009/xaml"
+             xmlns:local="clr-namespace:XamarinFormsSearchBarIOS"
+             xmlns:controls="clr-namespace:XamarinFormsSearchBarIOS.Controls;assembly=XamarinFormsSearchBarIOS"
+             x:Class="XamarinFormsSearchBarIOS.MainPage">
+  
+  <StackLayout Margin="0,30,0,0">
+    <SearchBar Placeholder="SearchBar still showing cancel button"
+               VerticalOptions="Start" />
+
+    <controls:CustomSearchBar Placeholder="SearchBar without cancel button"
+                              VerticalOptions="Start" />
+  </StackLayout>
+
+</ContentPage>
